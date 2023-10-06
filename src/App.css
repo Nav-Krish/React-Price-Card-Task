@@ -1,0 +1,55 @@
+.priceCard {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  height: 558px;
+}
+
+hr {
+  margin: 25px 0;
+}
+
+.card-title {
+  margin: 6px 0;
+  font-size: 16px;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.card-price {
+  font-size: 50px;
+}
+
+ul li {
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 80px;
+  font-weight: bold;
+  padding: 16px;
+  opacity: 0.7;
+}
+
+i {
+  padding-right: 5px;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .card:hover {
+    margin-top: -8px;
+    margin-bottom: 8px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .card:hover .btn {
+    opacity: 1;
+  }
+}
